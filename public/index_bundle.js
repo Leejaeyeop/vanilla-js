@@ -1,0 +1,1 @@
+(()=>{"use strict";!async function(){(async function(){await async function(){await new Promise(((o,n)=>setTimeout((()=>{console.log("setTimeout 종료!"),o()}),3e3))),console.log("bar 종료")}(),console.log("foo 종료!")})(),console.log("init종료!")}()})();
