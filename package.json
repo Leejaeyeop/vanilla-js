@@ -5,7 +5,8 @@
     "main": "async.js",
     "scripts": {
         "build": "webpack --mode=production",
-        "build:dev": "webpack --mode=development"
+        "build:dev": "webpack --mode=development",
+        "start": "concurrently \"webpack --watch --mode=development\" \"npx http-server ./public -c-1 -p 8080 -a localhost\""
     },
     "author": "",
     "license": "ISC",
